@@ -1,7 +1,7 @@
 site_configs: &site_configs
   navbar_brand_html: >
     <a href="/" class="navbar-brand" style="padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-      <img style="margin-top: 8px; height: 35px;margin-left: -20px;" src="http://consensushk01.oss-cn-hongkong.aliyuncs.com/public/app_logo.jpg" alt="consensushk-logo"/>
+      <img style="margin-top: 8px; height: 35px;margin-left: -20px;" src="https://consensushk01.oss-cn-hongkong.aliyuncs.com/public/app_logo.jpg" alt="consensushk-logo"/>
     </a>
   navbar_html: >
     <li><a href="/topics/new">發帖</a>
