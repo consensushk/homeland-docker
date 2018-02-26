@@ -1,25 +1,35 @@
 site_configs: &site_configs
   navbar_brand_html: >
-    <a href="/" class="navbar-brand"><b>App</b> Name</a>
+    <a href="/" class="navbar-brand" style="padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
+      <img style="margin-top: 8px; height: 35px;margin-left: -20px;" src="http://consensushk01.oss-cn-hongkong.aliyuncs.com/public/app_logo.jpg" alt="consensushk-logo"/>
+    </a>
   navbar_html: >
-    <li><a href="/topics/new">发帖</a>
+    <li><a href="/topics/new">發帖</a>
   wiki_index_html: >
-    <div>Wiki Home page.</div>
+    <div>Wiki 首頁</div>
   wiki_sidebar_html: >
-    <strong>推荐内容</strong>
+    <strong>關於</strong>
     <ul>
-      <li><a href="/wiki/about">关于我们</a></li>
+      <li><a href="/wiki/about">關於 ConsensusHK</a></li>
     </ul>
   footer_html: >
     <p class="copyright">
-     &copy; Powered by <a href="http://gethomeland.com">Homeland</a>.
+     &copy; ConsensusHK 2018
     </p>
   after_topic_html: ""
   before_topic_html: ""
   topic_index_sidebar_html: ""
-  site_index_html: "下面列出了相关网站。如果你知道还有不在此列表的，请帮忙补充。"
+  site_index_html: "下面列出了篩選出的區塊鏈相關網站，如你有想推薦的網站，請幫忙補充。"
   custom_head_html: >
     <link rel="dns-prefetch" href="//assets.your-host.com">
+    <meta name="publisher" content="共識香港 ConsensusHK">
+    <meta property="og:site_name" content="共識香港 ConsensusHK" />
+    <meta property="og:locale" content="zh_HK">
+    <meta property="og:locale:alternate" content="zh_HK">
+    <meta property="og:locale:alternate" content="zh_TW">
+    <meta property="og:locale:alternate" content="zh_CN">
+    <meta name="description" content="共識相關是一個於香港發起的區塊鏈技術社區。我們以深挖區塊鏈底層技術和應用場景為特色，同時觀察和解析技術走向與政府監管，致力於以去中心化的社區模式連接以人做為的節點，為本地區塊鏈行業發展與項目落地助力。">
+    <meta name="keywords" content="共識香港,consensushk,共識,consensus,香港,Hong Kong,比特幣,bitcoin,以太坊,etheruem,區塊鏈,blockchain,數字貨幣,crypto,cryptocurrency,技術,社區,技術社區,香港,台灣,中國,深圳,大灣區,金融,香港區塊鏈,本地,國際,最新">
   node_ids_hide_in_topics_index: ""
   new_topic_dropdown_node_ids: ""
   ban_words_on_reply: >
@@ -32,12 +42,12 @@ site_configs: &site_configs
     提示1
     提示2
   newbie_notices: >
-    <p>为提高社区质量，防止新人一来就发帖提问，新用户需要达到下面条件才可发帖：</p>
+    <p>為提高技术社區質量，防止新人重複發帖提問，新用戶需要達到下面條件才可發帖：</p>
     <ol style="color:#ad2b2d;">
-      <li>注册时间超过一个月；</li>
-      <li>回帖数量必须达到 10 帖以上；</li>
+      <li>註冊時間超過一天；</li>
+      <li>回帖數量必須達到 5 帖以上；</li>
     </ol>
-    <p>请在新人阶段多浏览，看看其他老用户是如何在社区里面分享与解决问题的。</p>
+    <p>請在新人階段多瀏覽，看看老用戶是如何在 ConsensusHK 技術社區裡面分享與解決問題的。</p>
   reject_newbie_reply_in_the_evening: false
   apns_pem: ""
   blacklist_ips: ""

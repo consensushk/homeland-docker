@@ -1,7 +1,7 @@
 # NAME:     homeland/base
 FROM ubuntu:14.04
 
-MAINTAINER Jason Lee "https://github.com/huacnlee"
+MAINTAINER foreseaz "https://github.com/foreseaz"
 
 # == Ubuntu Mirror on 163 for China network
 RUN \
