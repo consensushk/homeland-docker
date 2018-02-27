@@ -1,10 +1,10 @@
 site_configs: &site_configs
   navbar_brand_html: >
     <a href="/" class="navbar-brand" style="padding-top: 0; padding-bottom: 0; width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-      <img style="margin-top: 8px; height: 35px;margin-left: -20px;" src="https://consensushk01.oss-cn-hongkong.aliyuncs.com/public/app_logo.jpg" alt="consensushk-logo"/>
+      <img style="margin-top: 8px; height: 35px;margin-left: -20px;padding: 2px;" src="https://consensushk01.oss-cn-hongkong.aliyuncs.com/public/logo.svg" alt="consensushk-logo"/>
     </a>
   navbar_html: >
-    <li><a href="/topics/new">發帖</a>
+    <li><a href="/topics/new">發起討論</a>
   wiki_index_html: >
     <div>Wiki 首頁</div>
   wiki_sidebar_html: >
@@ -13,9 +13,27 @@ site_configs: &site_configs
       <li><a href="/wiki/about">關於 ConsensusHK</a></li>
     </ul>
   footer_html: >
-    <p class="copyright">
-     &copy; ConsensusHK 2018
-    </p>
+    <div class="media">
+      <div class="media-left" style="padding: 5px 25px 0 10px;">
+        <img class="media-object" src="https://consensushk01.oss-cn-hongkong.aliyuncs.com/public/logo-color.svg" style="width: 60px;">
+      </div>
+      <div class="media-body">
+        <div class="links">
+          <a href="/wiki/about">關於</a> / <a href="/status" target="_blank">Status</a> / <a href="/users">活躍會員</a> / <a href="/teams">組織</a> / <a href="https://yuque.com/ruby-china/api/getting-started">API</a> / <a href="/wiki/contributors">貢獻者</a>
+        </div>
+        <div class="copyright" style="margin-top:5px">
+          <img class="media-object" src="https://consensushk01.oss-cn-hongkong.aliyuncs.com/public/logotype.svg" style="height: 12px;display: inline-block;padding: 0 2px 2px 0;">是由眾多愛好者共同發起并維護的區塊鏈技術中文社區，本站使用 <a href="https://gethomeland.com">Homeland</a> 構建，並採用 Docker 部署。
+        </div>
+        <div class="links" style="margin-top:5px">
+          <span class="socials">
+         <a href="http://github.com/consensushk" target="_blank" rel="nofollow" title="本站在 GitHub 上面的開源內容"><i class="fa fa-github"></i></a>
+         <a href="http://twitter.com/consensushk" target="_blank" rel="nofollow" title="本站的 Twitter 賬號"><i class="fa fa-twitter"></i></a>
+         <a href="/topics/feed" target="_blank" rel="nofollow"><i class="fa fa-rss"></i></a>
+         </span>
+          <a href="?locale=zh-CN" rel="nofollow" style="margin-left: 20px">簡體中文</a> / <a href="?locale=zh-TW" rel="nofollow">正體中文</a> / <a href="?locale=en" rel="nofollow">English</a>
+        </div>
+      </div>
+    </div>
   after_topic_html: ""
   before_topic_html: ""
   topic_index_sidebar_html: ""
