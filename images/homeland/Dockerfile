@@ -4,7 +4,7 @@ MAINTAINER foreseaz "https://github.com/foreseaz"
 
 ENV RAILS_ENV 'production'
 
-ENV HOMELAND_VERSION '1.0.0'
+ENV HOMELAND_VERSION '1.0.1'
 
 RUN useradd ruby -s /bin/bash -m -U &&\
     mkdir -p /var/www &&\
